@@ -1,0 +1,114 @@
+body{
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	margin: 0;
+}
+header{
+	height: 15vh;
+	width: 15vw;
+	background-image: url("../img/N.jpg");
+	background-size: cover;
+}
+header:hover{
+	border-radius:10%;
+	-webkit-border-radius:38%;	
+	box-shadow: 0px 0px 15px 15px #cc0a0a;
+	-webkit-box-shadow: 0px 0px 15px 15px #cc0a0a;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	width: 90vw;
+	margin-left: 5vw ;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #21201d;
+	opacity: 0.9; 
+	height: 15vh;
+	grid-column: 1/span 2;
+	grid-row: 1;
+}
+footer{
+	background-color: gray;
+	height: 7.5vh;
+	grid-column: 1/span 3;
+	opacity: 0.6;
+	margin-top: 2vh;
+	margin-right: 0;
+	width: 100vw;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 8vh;
+	font-family: Arial;
+}
+nav a:hover{
+	color: #0b8c0b;
+	cursor: pointer;
+	transition:all .2s ease-in-out;
+}
+#contain{
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 15vw 70vw 15vw;
+	grid-template-rows: 20vh;
+}
+#portafolio-container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.portafolio-item{
+	width: 30%;
+	position: relative;
+	overflow: hidden;
+}
+.portafolio-img{
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 30vw;
+}
+.portafolio-text{
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+.portafolio-text p{
+	text-align: justify;
+}
+
+.portafolio-item:hover .portafolio-text{
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.portafolio-item:hover .portafolio-img{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+/*.redes{
+	width: 1em;
+	height: 1em;
+}
