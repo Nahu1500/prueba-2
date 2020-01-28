@@ -1,0 +1,12 @@
+table{
+	width: 80vw;
+	margin: 0vh 10vw;
+	margin-bottom: 10vh;
+	border-collapse: collapse;
+}
+th{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 4vh;
+	border: solid 3px black;
+}
