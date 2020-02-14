@@ -1,0 +1,25 @@
+#search{
+	max-width: 25%;
+	height: 40vh;
+	margin-top: 10vh;
+	margin-right: 5vw;
+}
+main>a{
+	margin-bottom: 5vh;
+}
+main{
+	margin-top: 12vh;
+}
+p::first-letter{
+	padding-left: 2vw;
+}
+header{
+	margin: 0;
+	padding: 0;
+}
+#divatt{
+	padding: 0;
+}
+#divatt2{
+	padding: 0;
+}
